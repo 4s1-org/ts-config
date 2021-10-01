@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@4s1/changelog-config': 2.0.2
+  '@4s1/changelog-config': 2.0.3
   '@commitlint/cli': 13.2.0
   '@commitlint/config-conventional': 13.2.0
   husky: 7.0.2
@@ -9,7 +9,7 @@ specifiers:
   standard-version: 9.3.1
 
 devDependencies:
-  '@4s1/changelog-config': 2.0.2
+  '@4s1/changelog-config': 2.0.3
   '@commitlint/cli': 13.2.0
   '@commitlint/config-conventional': 13.2.0
   husky: 7.0.2
@@ -18,8 +18,8 @@ devDependencies:
 
 packages:
 
-  /@4s1/changelog-config/2.0.2:
-    resolution: {integrity: sha1-RYfUfdwKwXdVbIsxFCHebC0FeLw=, tarball: https://gitlab.com/api/v4/projects/29686867/packages/npm/@4s1/changelog-config/-/@4s1/changelog-config-2.0.2.tgz}
+  /@4s1/changelog-config/2.0.3:
+    resolution: {integrity: sha1-as6uH2GwyBqrzsiBqXZMBAA0Q5Q=, tarball: https://gitlab.com/api/v4/projects/29686867/packages/npm/@4s1/changelog-config/-/@4s1/changelog-config-2.0.3.tgz}
     dev: true
 
   /@babel/code-frame/7.14.5:
