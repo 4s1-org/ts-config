@@ -1,0 +1,45 @@
+{
+  "name": "@4s1/ts-config",
+  "version": "1.0.0",
+  "description": "TS Config",
+  "bugs": {
+    "url": "https://gitlab.com/4s1/ts-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/4s1/ts-config.git"
+  },
+  "license": "MIT",
+  "author": "Steffen <steffen@4s1.de>",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "tsconfig*.json"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "preinstall": "npx only-allow pnpm",
+    "lbt": "npm run lint && npm run build && npm run test",
+    "lint": "eslint --ext .ts src/",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "echo No tests available",
+    "release": "git diff --exit-code --quiet && pnpm run lbt && standard-version",
+    "release:major": "pnpm run release -- --release-as major",
+    "release:minor": "pnpm run release -- --release-as minor",
+    "release:patch": "pnpm run release -- --release-as patch",
+    "prepare": "husky install"
+  },
+  "prettier": "@4s1/eslint-config",
+  "devDependencies": {
+    "@4s1/changelog-config": "2.0.2",
+    "@commitlint/cli": "13.2.0",
+    "@commitlint/config-conventional": "13.2.0",
+    "husky": "7.0.2",
+    "prettier": "2.4.1",
+    "standard-version": "9.3.1"
+  },
+  "publishConfig": {
+    "@4s1:registry": "https://gitlab.com/api/v4/projects/30088896/packages/npm/"
+  }
+}

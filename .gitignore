@@ -1,0 +1,9 @@
+/node_modules/
+/dist/
+/build/
+/converage/
+/data/
+*.tgz
+*.tar.gz
+/.pnpm-debug.log
+/.env
