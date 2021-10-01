@@ -1,5 +1,27 @@
 # TS Config
 
+## Target: ES2020, Module: CommonJS
+
+Create a **tsconfig.json** and insert:
+
+```json
+{
+  "extends": "@4s1/ts-config/tsconfig-es2020-commonjs.json",
+  "compilerOptions": {
+    /* Basic Options */
+    "outDir": "./dist",     /* Redirect output structure to the directory. */
+    "rootDir": "./src",     /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "src/**/*.spec.ts",
+    "node_modules/"
+  ]
+}
+```
+
 ## Target: ES2020, Module: ES2020
 
 Create a **tsconfig.json** and insert:
