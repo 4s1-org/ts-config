@@ -66,6 +66,15 @@ Append to **package.json**:
 }
 ```
 
+### Fix imports
+
+```text
+# Search
+^(import [^';]* from '(\./|(\.\./)+)[^';.]*)'
+# Replace
+$1.js'
+```
+
 ## Additional dev config
 
 Create a **tsconfig.dev.json** and insert:
