@@ -1,5 +1,13 @@
 # TS Config
 
+## Formatting
+
+Create a **.prettierignore** and insert:
+
+```text
+/tsconfig*.json
+```
+
 ## Target: ES2020, Module: CommonJS
 
 Create a **tsconfig.json** and insert:
