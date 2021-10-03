@@ -86,8 +86,8 @@ Append to **package.json**:
 ```json
 {
   "scripts": {
-    "build": "tsc",
-    "build:dev": "tsc --project tsconfig.dev.json"
+    "build": "rm -rf dist && tsc",
+    "build:dev": "pnpm run build -- --project tsconfig.dev.json"
   }
 }
 ```
