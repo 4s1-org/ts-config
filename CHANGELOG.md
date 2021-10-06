@@ -1,5 +1,15 @@
 # Changelog
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [1.2.0](https://gitlab.com/4s1/ts-config/compare/v1.1.0...v1.2.0) (2021-10-06)
+
+
+### Features
+
+* add react config template ([5a81268](https://gitlab.com/4s1/ts-config/commit/5a8126803df77f32e7814715631008998d85dff9))
+* rename ES2020 config template ([eee6c17](https://gitlab.com/4s1/ts-config/commit/eee6c178a8433eda054e2eafa051d19c49cf6067))
+
 ## [1.1.0](https://gitlab.com/4s1/ts-config/compare/v1.0.0...v1.1.0) (2021-10-01)
 
 
