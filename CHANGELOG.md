@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.1](https://gitlab.com/4s1/ts-config/compare/v1.2.0...v1.2.1) (2021-10-06)
+
+
+### Bug Fixes
+
+* set correct properties for react template ([6ce277f](https://gitlab.com/4s1/ts-config/commit/6ce277f7574a7db34cf0ca6c92c91cd0731c4cd7))
+
 ## [1.2.0](https://gitlab.com/4s1/ts-config/compare/v1.1.0...v1.2.0) (2021-10-06)
 
 
