@@ -11,7 +11,7 @@
   },
   "license": "MIT",
   "author": "Steffen <steffen@4s1.de>",
-  "type": "module",
+  "type": "commonjs",
   "exports": "./dist/index.js",
   "main": "./dist/index.js",
   "files": [
