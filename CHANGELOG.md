@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://gitlab.com/4s1/ts-config/compare/v1.2.2...v1.3.0) (2021-11-09)
+
+
+### Features
+
+* add skipLibCheck ([41094ae](https://gitlab.com/4s1/ts-config/commit/41094ae76f06c32116c05ddf786e0f0450199f89))
+
+
+### Bug Fixes
+
+* remove duplicate file ([654335c](https://gitlab.com/4s1/ts-config/commit/654335c24573a68cf9cac515c94599be719cdf6f))
+
 ## [1.2.2](https://gitlab.com/4s1/ts-config/compare/v1.2.1...v1.2.2) (2021-10-06)
 
 
