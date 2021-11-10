@@ -36,7 +36,7 @@ Create a **tsconfig.json** and insert:
 
 ```json
 {
-  "extends": "@4s1/ts-config/tsconfig-es2020-es2020.json",
+  "extends": "@4s1/ts-config/tsconfig-es2020.json",
   "compilerOptions": {
     /* Basic Options */
     "outDir": "./dist",     /* Redirect output structure to the directory. */
