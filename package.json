@@ -34,7 +34,6 @@
     "release:patch": "pnpm run release -- --release-as patch",
     "test": "echo nothing to test"
   },
-  "prettier": "@4s1/eslint-config",
   "devDependencies": {
     "@commitlint/cli": "15.0.0",
     "@commitlint/config-conventional": "15.0.0",
