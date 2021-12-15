@@ -8,9 +8,6 @@ validate-job:
     key: '$CI_COMMIT_REF_SLUG'
     paths:
       - .pnpm-store
-  before_script:
-    # Access to private packages
-    - echo "//gitlab.com/api/v4/packages/npm/:_authToken=${CI_JOB_TOKEN}" >> .npmrc
   script:
     - pnpm i
     - pnpm run lint
