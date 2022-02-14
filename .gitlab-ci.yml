@@ -1,15 +1,8 @@
+include:
+  - project: 4s1/gitlab-ci-config
+    file: 'all/prevent-detached-pipeline/.gitlab-ci.yml'
+  - project: 4s1/gitlab-ci-config
+    file: 'typescript/validate/.gitlab-ci.yml'
+
 stages:
   - validate
-
-validate-job:
-  stage: validate
-  image: registry.gitlab.com/4s1/docker/node:14-alpine-dev
-  cache:
-    key: '$CI_COMMIT_REF_SLUG'
-    paths:
-      - .pnpm-store
-  script:
-    - pnpm i
-    - pnpm run lint
-    - pnpm run build
-    - pnpm run test
