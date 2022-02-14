@@ -31,7 +31,9 @@
     "release:major": "pnpm run release -- --release-as major",
     "release:minor": "pnpm run release -- --release-as minor",
     "release:patch": "pnpm run release -- --release-as patch",
-    "test": "echo nothing to test"
+    "test": "echo no tests",
+    "test:cov": "echo no tests",
+    "test:watch": "echo no tests"
   },
   "devDependencies": {
     "@commitlint/cli": "16.2.1",
