@@ -4,14 +4,14 @@ specifiers:
   '@commitlint/cli': 16.2.3
   '@commitlint/config-conventional': 16.2.1
   husky: 7.0.4
-  prettier: 2.6.0
+  prettier: 2.6.1
   standard-version: 9.3.2
 
 devDependencies:
   '@commitlint/cli': 16.2.3
   '@commitlint/config-conventional': 16.2.1
   husky: 7.0.4
-  prettier: 2.6.0
+  prettier: 2.6.1
   standard-version: 9.3.2
 
 packages:
@@ -1294,8 +1294,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier/2.6.0:
-    resolution: {integrity: sha512-m2FgJibYrBGGgQXNzfd0PuDGShJgRavjUoRCw1mZERIWVSXF0iLzLm+aOqTAbLnC3n6JzUhAA8uZnFVghHJ86A==}
+  /prettier/2.6.1:
+    resolution: {integrity: sha512-8UVbTBYGwN37Bs9LERmxCPjdvPxlEowx2urIL6urHzdb3SDq4B/Z6xLFCblrSnE4iKWcS6ziJ3aOYrc1kz/E2A==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
