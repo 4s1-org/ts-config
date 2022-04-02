@@ -1,6 +1,0 @@
-include:
-  - project: 4s1/gitlab-ci-config
-    file: 'typescript/validate/.gitlab-ci.yml'
-
-stages:
-  - validate
