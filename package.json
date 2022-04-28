@@ -26,7 +26,6 @@
     "build": "echo nothing to build",
     "lbt": "npm run lint && npm run build && npm run test",
     "lint": "echo nothing to lint",
-    "prepare": "husky install",
     "release": "git diff --exit-code --quiet && pnpm run lbt && standard-version",
     "release:major": "pnpm run release -- --release-as major",
     "release:minor": "pnpm run release -- --release-as minor",
